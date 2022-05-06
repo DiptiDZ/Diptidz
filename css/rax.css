@@ -69,3 +69,51 @@ footer{
 a{
     color:blue;
 }
+/*for tablet*/
+@media only screen and (min-width: 700px) and (max-width: 900px){
+
+    p{
+        line-height: 28px;
+        margin: auto 15% 20px 0px;
+    }
+    button{
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    .small{
+        width: 190px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    li{
+    list-style-type: "\27BD";
+    font-size: 14px;
+    }
+}
+@media only screen and (min-width: 399px) and (max-width: 699px){
+    body{
+        margin:3px 8%;
+    }
+    p{
+        line-height: 24px;
+        margin: auto 10% 20px 0px;
+    }
+    button{
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    .small{
+        width: 170px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .sec{
+        display:block;
+    }
+}
